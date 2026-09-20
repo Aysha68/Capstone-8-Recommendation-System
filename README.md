@@ -153,6 +153,7 @@ The recommendation system successfully passed these checks.
 
 ## Project Structure
 
+
 ```text
 Capstone-8-Recommendation-System/
 │
@@ -165,5 +166,84 @@ Capstone-8-Recommendation-System/
 │   │   └── README.txt
 │   │
 │   ├── Processed/
-│   │   └── movie_features_
+│   │   └── movie_features.csv
+│   │
+│   └── Final/
+│       ├── top_10_movie_genre.png
+│       ├── toy_story_recommendations.png
+│       └── toy_story_recommendations.csv
+│
+├── Notebooks/
+│   └── recommendation_system.ipynb
+│
+├── Scripts/
+│
+└── README.md
 ```
+
+---
+
+## Technologies and Libraries
+
+The project was developed using **Python** and **VS Code**.
+
+Main libraries and tools include:
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Jupyter Notebook
+* VS Code
+* Git
+* GitHub
+
+---
+
+## How to Run the Project
+
+### 1. Clone the repository
+
+Download or clone this repository to your computer.
+
+### 2. Open the project
+
+Open the project folder in VS Code.
+
+### 3. Open the notebook
+
+Navigate to:
+
+`Notebooks/recommendation_system.ipynb`
+
+### 4. Run the notebook
+
+Run the notebook cells from top to bottom.
+
+The notebook loads the MovieLens data, performs the analysis, creates the movie features, calculates similarities, generates recommendations, and saves the final outputs.
+
+---
+
+## Final Results
+
+The completed project provides:
+
+* Movie genre analysis
+* Genre-based movie features
+* Tag-based movie features
+* A combined movie feature matrix
+* Movie-to-movie cosine similarity
+* Content-based movie recommendations
+* Recommendation evaluation
+* Saved recommendation results
+* Saved visualization files
+
+---
+
+## Conclusion
+
+This project demonstrates how a simple **content-based recommendation system** can be developed using movie metadata such as genres and tags.
+
+By converting movie information into numerical feature vectors and comparing them using cosine similarity, the system can identify movies with similar content and generate recommendations for a selected movie.
+
